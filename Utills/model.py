@@ -3,3 +3,4 @@ users: list[dict] = [
     {'name': 'Karol', 'location': 'Miedzyrzec Podlaski', 'posts': 700},
     {'name': 'Krystian', 'location': 'Zyrardow', 'posts': 200}
 ]
+
