@@ -7,3 +7,9 @@ def add_user(users_data: list[dict]) -> None:
     tmp_location:str = str(input('Podaj miejsce: '))
     tmp_posts = int(input('Podaj liczbę postów: '))
     users_data.append({'name': tmp_name, 'location': tmp_location, 'posts': tmp_posts})
+
+def remove_user(users_data: list[dict])->None:
+    user_name=input('{Podaj imię użytkownika do usunięcia: ')
+    for user in users_data:
+        if user ['name'] == user_name:
+            users_data.remove(user)
